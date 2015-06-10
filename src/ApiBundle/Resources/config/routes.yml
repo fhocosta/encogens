@@ -1,0 +1,31 @@
+api_cliente:
+    resource: ApiBundle\Controller\ClienteRESTController
+    type:     rest
+    defaults: {_format:json}
+
+api_item:
+    resource: ApiBundle\Controller\ItemRESTController
+    type:     rest
+    defaults: {_format:json}
+
+api_nota:
+    resource: ApiBundle\Controller\NotaRESTController
+    type:     rest
+    defaults: {_format:json}
+
+api_pacote:
+    resource: ApiBundle\Controller\PacoteRESTController
+    type:     rest
+    defaults: {_format:json}
+
+api_tipo:
+    resource: ApiBundle\Controller\TipoRESTController
+    type:     rest
+    defaults: {_format:json}
+
+
+api_viagem:
+    resource: ApiBundle\Controller\ViagemRESTController
+    type:     rest
+    defaults: {_format:json}
+
